@@ -6,16 +6,13 @@
             "value": "GEN-UNIQUE"
         },
         "administratorLogin": {
-            "value": "superman"
+            "value": "sqladmin"
         },
         "administratorLoginPassword": {
             "value": "GEN-PASSWORD"
         },
         "location": {
             "value": "westus2"
-        },
-        "repoURL":{
-            "value": "https://github.com/wahidsaleemi/yourls.git"
         }
     }
 }

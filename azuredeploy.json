@@ -133,8 +133,8 @@
     }
   },
     "variables": {
-        "databaseName": "[concat('db_', 'yourls')]",
-        "serverName": "[concat('mysql-',  'yourls')]",
+        "databaseName": "[concat('db_', parameters('webAppName'))]",
+        "serverName": "[concat('mysql-',  parameters('webAppName'))]",
         "firewallRules": "[parameters('firewallRules').rules]"
     },
     "resources": [

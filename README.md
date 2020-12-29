@@ -13,7 +13,7 @@ This is a clone of [Yourls](https://github.com/YOURLS/YOURLS), with modification
 1. Update parameters and deploy template. The template creates all the resources and will copy the yourls files into App Service website.
 2. Install YOURLS following [yourls.org](https://yourls.org) and the [Wiki documentation](https://github.com/YOURLS/YOURLS/wiki/). The short version is:
    1. Update the /wwwroot/user/config.php file to point to the app service URL and MySQL database that was created.
-   2. Browse to yoursite.azurewebsites.net/admin to finish the installation and configuration.
+   2. Browse to yoursite.azurewebsites.net/admin to finish the installation and configuration. The login will be the one specified in config.php.
 
 ## Tips
 
